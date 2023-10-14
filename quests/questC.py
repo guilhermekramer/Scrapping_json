@@ -13,7 +13,7 @@ for line in data:
                 name = arquivo["name"]
                 cuisine = arquivo["cuisine"]
                 borough = arquivo["borough"]
-                #print(f"name: {name}, cuisine: {cuisine}, borough: {borough}")
+                print(f"name: {name}, cuisine: {cuisine}, borough: {borough}")
 
         except json.JSONDecodeError:
             pass
